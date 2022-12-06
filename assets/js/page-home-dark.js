@@ -120,7 +120,7 @@ $(document).ready(function () {
 	// Initiate typed.js text effect (done custom for each typed text effect)
 	$(".animated-text-effect").typed({ 
 		// Enter your texts here, these texts are applied to dark homepages
-		strings: ["Web3", "Technical Marketing^", "Advisory Solutions^"], 
+		strings: ["Web3 Technical Marketing^", "Advisory Solutions^"], 
 		contentType: "text", 
 		typeSpeed: 25, 
 		loop: true, 
