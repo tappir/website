@@ -120,13 +120,13 @@ $(document).ready(function () {
 	// Initiate typed.js text effect (done custom for each typed text effect)
 	$(".animated-text-effect").typed({ 
 		// Enter your texts here, these texts are applied to dark homepages
-		strings: ["Tappir is a Web3 native technical^", "Creative agency.^"], 
+		strings: ["Tappir is a Web3 native technical/creative agency.^"], 
 		contentType: "text", 
 		typeSpeed: 25, 
-		loop: true, 
+		loop: false, 
 		backDelay: 1600, 
 		showCursor: true, 
-		startDelay: 100, // PRELOADER -- comment-out this line if you stop using page preloader
+		startDelay: 1700, // PRELOADER -- comment-out this line if you stop using page preloader
 		cursorChar: "|" 
 	});
 
